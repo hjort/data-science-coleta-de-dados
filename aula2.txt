@@ -1,0 +1,27 @@
+Nesta aula, você:
+
+Conheceu o Portal Wunderground, do qual podemos extrair dados climáticos relacionados a inúmeros locais e datas, inclusive históricos.
+Observou o funcionamento de uma rotina escrita em Python e executada de forma recorrente.
+Analisou a estrutura de uma rotina escrita em Python capaz de extrair dados do Portal Wunderground e gravá-los em uma coleção MongoDB.
+
+
+Conecte-se ao portal Wunderground e localize a lista de observações tomadas no dia 27 de janeiro de 1997, na cidade de Brasília.
+Qual foi a temperatura medida às 18 horas?
+
+
+Chegou a hora de você executar o que foi visto na aula! Para isso, execute os passos listados abaixo.
+
+1) O site do Weather Underground coleta dados sobre o clima e de tempos em tempos os grava. E para capturar os dados históricos, eles disponibilizam uma API, a Weather API for Developers.
+https://www.wunderground.com/
+https://www.wunderground.com/weather/api
+
+2) Essa API possui alguns planos, incluindo um gratuito, onde você pode fazer até 10 chamadas por minuto, sendo até 500 chamadas por dia. Então, caso você queira, compre uma chave, que mesmo sendo gratuita, deve-ser clicar em Purchase Key.
+https://www.wunderground.com/weather/api/d/pricing.html
+
+3) Além do acesso interativo, você pode acessar os dados via URL, por exemplo: http://api.wunderground.com/api/SUA_CHAVE/history_20160119/q/CA/San_Francisco.json.
+
+4) Há um robô, desenvolvido pelo instrutor, escrito em Python, que a cada 30 minutos captura 10 JSONs do Weather Underground. Você pode baixá-lo aqui e a biblioteca de utilidades pode ser baixada aqui.
+
+5) Esse robô utiliza um arquivo CSV com cidades e datas, para fazer a consulta no Weather Underground. Você pode baixá-lo aqui.
+
+6) Caso você queira executar tudo isso, o ideal seria ter um servidor que "nunca" desligasse com Python e MongoDB, criar agenda, adquirir chave da API mencionada anteriormente e colocá-la no código. Mas neste curso você receberá códigos fontes e backups para poder executar tudo local.
