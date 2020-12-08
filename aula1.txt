@@ -1,0 +1,5 @@
+Nesta aula, você:
+
+Conheceu o Portal Kaggle, fonte de inúmeras fontes de dados, bem como de modelos de machine learning, além de vastas porções de código úteis para tomá-las como ponto de partida para seus projetos.
+Buscou datasets no Portal Kaggle sobre temas variados.
+Copiou datasets do Portal Kaggle para sua área local.
